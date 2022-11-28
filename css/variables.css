@@ -1,0 +1,23 @@
+/* google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200;400&display=swap');
+
+/* variables CSS Proyecto starpoint */
+body{
+	/*primary color*/
+	--black: #001;
+	--white: #fff;
+
+	/*main colors*/
+	--main-color-1: #e1d2ff ;
+	--main-color-2: #9693e8 ;
+	--main-color-3: #575a92 ;
+
+	/* tamaño tipografia */
+	--tp-tittle-size:48px;
+	--tp-p-size:14px;
+
+	/* tipografia */
+	--main-tp:'Poppins', sans-serif;
+	--main-tp-2:'Montserrat', sans-serif;
+}
+
