@@ -1,0 +1,58 @@
+/* barra de busqueda/nav */
+
+	/* nav container */
+	.nav {
+		background-color: var(--black);
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 70px;
+
+	}
+
+	.nav div {
+		margin: 0px 20px ;
+	}
+
+	.nav_div_ul_index {
+		display: flex;
+	}
+
+	.nav_div_ul_li {
+		margin:0px 10px ;
+	}
+
+	.nav_div_ul_li_a {
+		color: var(--white);
+	}
+
+	/* logo img */
+	.nav_div_img_logo {
+		width: 150px;
+		display: flex;
+	}
+
+/* footer */
+
+	/* divs del footer */
+	footer {
+		display: flex;
+		background-color: var(--black);
+		color: var(--white);
+	}
+
+	footer div {
+		padding: 20px;
+	}
+
+	.footer_div_index {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		font-size: var(--tp-p-size);
+	}
+
+	.footer_div_index a{
+		color: var(--white);
+	}
