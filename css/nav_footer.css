@@ -56,3 +56,16 @@
 	.footer_div_index a{
 		color: var(--white);
 	}
+
+
+/* media querys*/
+	
+	@media (max-width: 700px) {
+		.nav {
+			justify-content: center;
+		}
+
+		.nav_div_index{
+			display: none;
+		}
+	}
