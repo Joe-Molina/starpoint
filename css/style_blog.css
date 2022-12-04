@@ -17,7 +17,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
-		padding: 30px
+		padding: 30px;
 	}
 
 	/* titulo articulos blog */
@@ -39,4 +39,29 @@
 	}
 
 
+/* medoa querys */
 
+	@media (max-width: 700px) {
+
+		.section_article_blog{
+		  	display: flex;
+		  	flex-direction: column;
+		  	justify-content: center;
+		  	align-items: center;
+		  	}
+
+		.section_article_div_img_blog img{
+		  	width: 80vw;
+			height: 300px;
+		  	}
+
+		.section_article_div_info_blog {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			padding: 30px;
+			text-align: center;
+			}
+
+	}
