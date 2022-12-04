@@ -41,7 +41,7 @@
 
 /* medoa querys */
 
-	@media (max-width: 700px) {
+	@media (max-width: 800px) {
 
 		.section_article_blog{
 		  	display: flex;
