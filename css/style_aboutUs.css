@@ -1,19 +1,19 @@
 /* articulos de los juegos */
 
 	/* section que contiene todo el articulo del blog */
-	.section_article_juegos {
+	.section_article_about {
 		margin: 15px;
 		display: flex;
 	}
 	
 	/* div que adentro tiene la img de referencia */
-	.section_article_div_img_juegos img{
+	.section_article_div_img_about img{
 		width: 45vw;
 		height: 400px;
 	}
 
 	/* div que incluye el titulo y los textos en los articulos del blog */
-	.section_article_div_info_juegos {
+	.section_article_div_info_about {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
@@ -21,20 +21,20 @@
 	}
 
 	/* titulo articulos blog */
-	.section_article_div_info_juegos h2 {
+	.section_article_div_info_about h2 {
 		font-size: var(--tp-tittle-size);
 		color: var(--main-color-3);
 	}
 
 	/* section requisitos */
 
-	.section_article_div_juegos {
+	.section_article_div_about {
 		width: 100vw;
 		height: auto;
 	}
 
 	/* titulos de requisitos y ficha tecnica */
-	.section_article_div_juegos h3 {
+	.section_article_div_about h3 {
 		font-size: 30px;
 		color: var(--main-color-3);
 	}
@@ -58,20 +58,28 @@
 
 	@media (max-width: 700px) {
 
-		.section_article_juegos {
+		.section_article_about {
 			flex-direction: column;
 			justify-content: center;
 			align-items: center;
 			text-align: center;
 		}
 
-		.section_article_div_img_juegos img{
+		.section_article_div_img_about img{
 		width: 300px;
 		height: 300px;
 		}
 
-		.section_article_div_juegos {
-			margin: 25px 0px;
+		.section_article_about {
+
+			background-color: #ddd;
+			padding: 20px;
+			justify-content: center;
+			align-items: center;
+
 		}
 
+		.section_article_div_img_about img{
+			border-radius: 500px;
+		}
 	}
