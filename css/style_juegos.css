@@ -52,3 +52,26 @@
 	aside a {
 		color: var(--main-color-3);
 	}
+
+
+/* responsive media querys */
+
+	@media (max-width: 700px) {
+
+		.section_article_juegos {
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+		}
+
+		.section_article_div_img_juegos img{
+		width: 80vw;
+		height: 400px;
+		}
+
+		.section_article_div_juegos {
+			margin: 25px 0px;
+		}
+
+	}
