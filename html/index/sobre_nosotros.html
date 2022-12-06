@@ -6,25 +6,24 @@
 	<link rel="stylesheet" type="text/css" href="../../css/variables.css">
 	<link rel="stylesheet" type="text/css" href="../../css/nav_footer.css">
 	<link rel="stylesheet" type="text/css" href="../../css/style_aboutUs.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<title>sobre nosotros</title>
 </head>
 <body>
 <body>
 	<header>
-		<nav class="nav">
-			<a href="../../index.html">
-			<div class="nav_div_logo">
-				<img src="../../assets/logo/logo2.png" alt="logo" class="nav_div_img_logo">
-			</div>
-			</a>
-			<div class="nav_div_index">
-				<ul class="nav_div_ul_index">
-					<li class="nav_div_ul_li"><a href="../../index.html" class="nav_div_ul_li_a">Blog</a></li>
-					<li class="nav_div_ul_li"><a href="juegos.html" class="nav_div_ul_li_a">Juegos</a></li>
-					<li class="nav_div_ul_li"><a href="sobre_nosotros.html" class="nav_div_ul_li_a">Sobre nosotros</a></li>
-					<li class="nav_div_ul_li"><a href="" class="nav_div_ul_li_a"></a></li>
-				</ul>
-			</div>
+		<nav >
+			<ul class="nav-bar">
+				<li class="logo"><a href="../../index.html"><img src="../../assets/logo/logo2.png" alt="logo"></a></li>
+				<input type="checkbox" id="check">
+				<span class="menu">
+					<li><a href="../../index.html">Blog</a></li>
+					<li><a href="juegos.html">Juegos</a></li>
+					<li><a href="sobre_nosotros.html">SObre nosotros</a></li>
+					<label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+				</span>
+				<label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+			</ul>	
 		</nav>
 	</header>
 	<section class="secction_about">
