@@ -5,6 +5,12 @@
 		margin: 15px;
 		display: flex;
 	}
+
+	.section_article_blog_invertido {
+		margin: 15px;
+		display: flex;
+		flex-direction: row-reverse;
+	}
 	
 	/* div que adentro tiene la img de referencia */
 	.section_article_div_img_blog img{
@@ -67,5 +73,12 @@
 		.secction_blog div {
 			margin-top: 20px;
 		}
+
+		.section_article_blog_invertido{
+		  	display: flex;
+		  	flex-direction: column;
+		  	justify-content: center;
+		  	align-items: center;
+		  	}
 
 	}
